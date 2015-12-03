@@ -1,0 +1,132 @@
+html, body, .navbar {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+.navbar-brand {
+	position: relative;
+	bottom: 15px;
+}
+
+.navbar-brand h3 {
+	font-family: 'Carrois Gothic SC', sans-serif;
+	color: black;
+	font-size: 2em;
+}
+
+.navbar {
+	background-color:rgba(248,248,248,0.6);
+	border: 0;
+}
+
+.navbar, .navbar-header {
+	height: 80px;
+}
+
+.navbar-toggle {
+	margin-top: 15px;
+	margin-left: 40px;
+}
+
+.current {
+	text-decoration: underline;
+}
+
+.nav {
+	float: right;
+	height: 40px;
+	padding-top: 15px;
+	padding-right: 40px;
+}
+
+.nav li {
+	text-transform: capitalize;
+	font-size: 1.9em;
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.carousel {
+	padding: 0;
+	margin: 0;
+}
+
+.carousel .item {
+    width: 100%; /*slider width*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+		max-height: 700px;
+}
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+		margin-top: 22%;
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+
+.section-header {
+	background-color: white;
+}
+
+.section-heading {
+	background-color: white;
+	color: rgb(21,21,21);
+	height: 70px;
+	margin-top: 45px;
+}
+
+.section-heading-footer {
+	background-color: white;
+	color: rgb(21,21,21);
+	height: 50px;
+	margin-top: 35px;
+}
+
+#meet-the-team h2, #the-shop h2, #kingston h2 {
+	font-size: 2.9em;
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.frame-size {
+	height: 250px;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.team-pic {	
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.col-md-3 img:hover {
+	border: 1px solid gray;
+}
+
+.social-buttons {
+	position: relative;
+	bottom: 10%;
+}
+
+
+.social-buttons i {
+	position: relative;
+	font-size: 3em;
+	float: left;
+	left: 48%;
+}
