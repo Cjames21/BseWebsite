@@ -9,6 +9,16 @@ html, body, .navbar {
           border-radius: 0 !important;
 }
 
+.btn {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	color: white;
+	border: none;
+}
+
 .navbar-brand {
 	position: relative;
 	bottom: 15px;
@@ -114,19 +124,16 @@ html, body, .navbar {
 	padding: 0;
 }
 
-.col-md-3 img:hover {
+.team-pic:hover {
 	border: 1px solid gray;
 }
 
-.social-buttons {
-	position: relative;
-	bottom: 10%;
+.service-box i {
+	color: rgb(51,51,51);
+}
+
+.service-box h3 {
+	font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 
-.social-buttons i {
-	position: relative;
-	font-size: 3em;
-	float: left;
-	left: 48%;
-}
