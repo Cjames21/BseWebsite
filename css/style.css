@@ -9,16 +9,6 @@ html, body, .navbar {
           border-radius: 0 !important;
 }
 
-.btn {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: white;
-	color: white;
-	border: none;
-}
-
 .navbar-brand {
 	position: relative;
 	bottom: 15px;
@@ -126,6 +116,21 @@ html, body, .navbar {
 
 .team-pic:hover {
 	border: 1px solid gray;
+}
+
+.btn {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	color: white;
+	border: none;
+}
+
+.btn:hover {
+	background-color: white;
+	border: 1px solid rgb(51,51,51);
 }
 
 .service-box i {
