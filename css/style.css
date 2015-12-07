@@ -143,4 +143,12 @@ html, body, .navbar {
 	border:none;
 }
 
+#facebookButton {
+	padding: 0;
+}
+
+#facebookButton:hover {
+	padding: 0;
+}
+
 
