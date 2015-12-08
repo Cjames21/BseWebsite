@@ -69,21 +69,6 @@ html, body, .navbar {
     border: none;
 		margin-top: 22%;
 }
-/*full width container*/
-@media (max-width: 767px) {
-    .block {
-        margin-left: -20px;
-        margin-right: -20px;
-    }
-}
-
-@media (max-width: 1060px) {
-	.navLink a {
-    font-size: .8em;  
-  }
-	
-	
-}
 
 .section-header {
 	background-color: white;
@@ -157,6 +142,28 @@ html, body, .navbar {
 
 #facebookButton:hover {
 	padding: 0;
+}
+
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+
+@media (max-width: 1060px) {
+	.navLink a {
+    font-size: .8em;  
+  }
+	
+	
+}
+
+@media (max-width: 250px) {
+	.section-heading h2 {
+		font-size: 1em;
+	}
 }
 
 
