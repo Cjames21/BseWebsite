@@ -42,7 +42,7 @@ html, body, .navbar {
 	float: right;
 	height: 40px;
 	padding-top: 15px;
-	padding-right: 40px;
+	padding-right: 20px;
 }
 
 .nav li {
@@ -68,21 +68,6 @@ html, body, .navbar {
     background: none;
     border: none;
 		margin-top: 22%;
-}
-/*full width container*/
-@media (max-width: 767px) {
-    .block {
-        margin-left: -20px;
-        margin-right: -20px;
-    }
-}
-
-@media (max-width: 1060px) {
-	.navLink a {
-    font-size: .8em;  
-  }
-	
-	
 }
 
 .section-header {
@@ -158,5 +143,26 @@ html, body, .navbar {
 #facebookButton:hover {
 	padding: 0;
 }
+
+/*full width container*/
+@media (max-width: 780px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+		.navLink a {
+			font-size: 0.5em;
+		}
+}
+
+@media (max-width: 1060px) and (min-width: 781px) {
+	.navLink a {
+    font-size: .7em;  
+  }
+	.navbar-brand h3 {
+		font-size: 1.4em;
+	}
+}
+
 
 
