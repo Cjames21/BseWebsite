@@ -1,6 +1,7 @@
 		
-		// Twitter button functionalty
+	$(document).ready(function(){
 		
+		// Twitter button functionalty	
 		!function(d,s,id){
 			var js,
 			fjs=d.getElementsByTagName(s)[0],
@@ -11,3 +12,11 @@
 				fjs.parentNode.insertBefore(js,fjs);
 				}
 			}(document, 'script', 'twitter-wjs');
+			
+			// team pic description on hover
+			$(function () {
+        $('.btn').hover(function() {
+					$(".picture-description").fadeToggle("slow");
+        });
+			});
+	});

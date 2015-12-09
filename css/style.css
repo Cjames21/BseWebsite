@@ -122,6 +122,16 @@ html, body, .navbar {
 	padding: 0;
 }
 
+.picture-description {
+	position: relative;
+	z-index: 1;
+	bottom: 22%;
+	background-color: rgba(248,248,248,0.6);
+	color: rgb(51,51,51);
+	font-family: 'Carrois Gothic SC', sans-serif;
+	display: none;
+}
+
 .service-box i {
 	font-size: 2.8em;
 	color: rgb(51,51,51);
