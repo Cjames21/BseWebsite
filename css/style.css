@@ -16,6 +16,8 @@ html, body, .navbar {
 }
 
 .navbar-brand h3 {
+	position: relative;
+	left: 10%;
 	font-family: 'Carrois Gothic SC', sans-serif;
 	color: black;
 	font-size: 2em;
@@ -42,6 +44,8 @@ html, body, .navbar {
 }
 
 .nav {
+	position: relative;
+	right: 5%;
 	float: right;
 	height: 40px;
 	padding-top: 15px;
