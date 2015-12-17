@@ -10,6 +10,11 @@ html, body, .navbar {
           border-radius: 0 !important;
 }
 
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
 .navbar-brand {
 	position: relative;
 	bottom: 15px;
@@ -45,7 +50,6 @@ html, body, .navbar {
 
 .nav {
 	position: relative;
-	right: 5%;
 	float: right;
 	height: 40px;
 	padding-top: 15px;
@@ -175,47 +179,46 @@ html, body, .navbar {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 	.navLink {
 		float: left;
 		font-size: 1.5em;
 		position: relative;
 		bottom: 70%;
-		right: 5%;
+	}
+	
+	li {		
+		color: black;
+	}
+	
+	.navbar {
+		background-color:rgb(248,248,248);
+		
 	}
 	
 	.nav {
-		text-align: center;
+		font-size: 0.9em;
 	}
 }
 
-@media (max-width:420px) {
+@media (max-width:460px) {
 	.navbar-brand h3 {
 		font-size: 1.5em;
 		position: relative;
 		left: 22%;
 	}
-	.section-header {
+	.section-heading {
 		font-size: 1.5em;
 	}
-	.navLink a {
+	li {
 		position: relative;
 		margin-left: 15px;
 		font-size: .9em;
+		color: black;
 	}
 }
 
-@media (max-width: 330px) {
-	.navbar-brand h3 , .section-header{
-		position: relative;
-		left: 15%;
-		font-size: 1.2em;
-	}
-	
-	.section-header h2, .section-header i {
-		font-size: 1.2em;
-	}
-}
+
 
 
 
