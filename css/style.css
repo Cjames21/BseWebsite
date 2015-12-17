@@ -1,6 +1,7 @@
 html, body, .navbar {
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 
 * {
@@ -29,10 +30,12 @@ html, body, .navbar {
 	height: 80px;
 }
 
-.navbar-toggle {
-	margin-top: 15px;
-	margin-left: 40px;
+.navbar-default, .navbar-fixed-top, {
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
+
 
 .navLink:hover {
 	text-decoration: underline;
@@ -42,7 +45,7 @@ html, body, .navbar {
 	float: right;
 	height: 40px;
 	padding-top: 15px;
-	padding-right: 20px;
+	margin: auto;
 }
 
 .nav li {
@@ -160,15 +163,25 @@ html, body, .navbar {
         margin-left: -20px;
         margin-right: -20px;
     }
-		.navLink a {
-			font-size: 0.5em;
+		
+		.navbar-brand {
+			position: relative;
+			left: 20%;
 		}
 }
 
-@media (max-width: 1060px) and (min-width: 781px) {
-	.navLink a {
-    font-size: .7em;  
-  }
+@media (max-width: 1000px) {
+	.navLink {
+		float: left;
+		font-size: 1.5em;
+		position: relative;
+		bottom: 70%;
+		right: 5%;
+	}
+	
+	.nav {
+		text-align: center;
+	}
 }
 
 

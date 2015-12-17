@@ -68,6 +68,8 @@
 			$("#teamPicFourteen").hover(function(){
         $("#descriptionFourteen").fadeToggle(500);
       });
+	
+	
 	});
 	
 			
